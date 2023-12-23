@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaArrowRight, FaPhone, FaCode, FaFacebook, FaConnectdevelop, FaUserClock, FaClosedCaptioning, FaTape, FaConfluence, FaSearchDollar, FaImage } from 'react-icons/fa';
 import CompanryService from '../share/CompanryService/CompanryService';
+import Testmonialsk from '../Home/Testmonialsk/Testmonialsk';
 
 const Services = () => {
     return (
@@ -79,8 +80,9 @@ const Services = () => {
                 </div>
             </section>
             <div className='my-10'>
-             <CompanryService classC={'flex justify-center'} color="font-extrabold"></CompanryService>
+                <CompanryService classC={'flex justify-center'} color="font-extrabold"></CompanryService>
             </div>
+            <Testmonialsk></Testmonialsk>
         </div>
     );
 };

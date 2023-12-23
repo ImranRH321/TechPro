@@ -7,7 +7,7 @@ const Header = () => {
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About us</Link></li>
         <li><Link to='/services'>Services</Link></li>
-        <li><Link to='/'>Project</Link></li>
+        <li><Link to='/servicesDetails'>Service || Details</Link></li>
         <li><Link to='/'>blog</Link></li>
     </>
     return (
@@ -30,7 +30,9 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                <Link to="/contact">
                 <button className="btn btn-neutral btn-md">Contact us</button>
+                </Link>
                 </div>
             </div>
         </div>
