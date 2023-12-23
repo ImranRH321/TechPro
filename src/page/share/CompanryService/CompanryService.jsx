@@ -1,0 +1,23 @@
+import React from 'react';
+import comLogo1 from '../../../assets/company/1.png'
+import comLogo3 from '../../../assets/company/3.png'
+import comLogo4 from '../../../assets/company/4.png'
+import comLogo5 from '../../../assets/company/5.png'
+import comLogo7 from '../../../assets/company/7.png'
+
+const CompanryService = () => {
+    return (
+        <div>
+            <p className='text-left font-bold'>Over 32K+ technical service growing with TechPro</p>
+            <div className='flex gap-8 my-10 items-center justify-between flex-wrap'>
+                <img src={comLogo1} alt="noImg" />
+                <img src={comLogo3} alt="noImg" />
+                <img src={comLogo4} alt="noImg" />
+                <img src={comLogo5} alt="noImg" />
+                <img src={comLogo7} alt="noImg" />
+            </div>
+        </div>
+    );
+};
+
+export default CompanryService;

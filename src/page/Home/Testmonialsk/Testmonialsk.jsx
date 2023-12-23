@@ -1,6 +1,6 @@
 import React from 'react';
-import CommonSectionTitle from '../share/CommonSectionTitle/CommonSectionTitle';
 import { FaStar } from 'react-icons/fa';
+import CommonSectionTitle from '../../share/CommonSectionTitle/CommonSectionTitle';
 
 const Testmonialsk = () => {
     return (
@@ -18,7 +18,7 @@ const Testmonialsk = () => {
                         <h2 className="card-title text-2xl text-warning mb-5">
                             <FaStar></FaStar>
                             <FaStar></FaStar>
-                            <FaStar></FaStar> 
+                            <FaStar></FaStar>  
                             <FaStar></FaStar>
                         </h2>
                         <p>Lorem ipsum dolor sit amet consectetur. Libero lorem eget vitae sapien sed et. Pharetra diam adipiscing aliquet commodo rhon pellent esque sollicitudin purus. Lectus amet erat aliquet. </p>
