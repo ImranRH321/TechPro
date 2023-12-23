@@ -7,12 +7,14 @@ import TechnicalServices from '../TechnicalServices.jsx/TechnicalServices';
 import CompanryService from '../../share/CompanryService/CompanryService';
 import Banner from '../Bannner/Banner';
 import Header from '../../share/Header/Header';
+import { Outlet } from 'react-router-dom';
 
 const Home = () => {
     return (
         <div>
             <h1>Home</h1>
             <Header></Header>
+            <Outlet></Outlet>
             {/* <Banner></Banner> */}
             {/* <CompanryService></CompanryService> */}
             {/* <TechnicalServices></TechnicalServices> */}
