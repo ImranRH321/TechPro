@@ -5,10 +5,11 @@ import comLogo4 from '../../../assets/company/4.png'
 import comLogo5 from '../../../assets/company/5.png'
 import comLogo7 from '../../../assets/company/7.png'
 
-const CompanryService = () => {
+
+const CompanryService = ({ classC, color }) => {
     return (
         <div>
-            <p className='text-left font-bold'>Over 32K+ technical service growing with TechPro</p>
+            <p className={`text-left font-bold ${classC} `}> <span className={`${color}`}>Over 32K+</span> technical service growing with TechPro</p>
             <div className='flex gap-8 my-10 items-center justify-between flex-wrap'>
                 <img src={comLogo1} alt="noImg" />
                 <img src={comLogo3} alt="noImg" />

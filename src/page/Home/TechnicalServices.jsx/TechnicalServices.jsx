@@ -12,7 +12,7 @@ const TechnicalServices = () => {
 
                 <button className="btn btn-neutral"> <FaArrowAltCircleDown></FaArrowAltCircleDown> All Services</button>
             </div>
-            {/* ar koto Obabe Morbi  */}
+            {/* Ar koto valobasba akto komiya deo  */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
                 <div className="card bg-base-100 shadow-xl">
                     <div className=" text-left">
