@@ -6,12 +6,14 @@ import AboutUsHome from '../AboutUsHome';
 import TechnicalServices from '../TechnicalServices.jsx/TechnicalServices';
 import CompanryService from '../../share/CompanryService/CompanryService';
 import Banner from '../Bannner/Banner';
+import Header from '../../share/Header/Header';
 
 const Home = () => {
     return (
         <div>
             <h1>Home</h1>
-            <Banner></Banner>
+            <Header></Header>
+            {/* <Banner></Banner> */}
             {/* <CompanryService></CompanryService> */}
             {/* <TechnicalServices></TechnicalServices> */}
             {/* <AboutUsHome></AboutUsHome> */}
