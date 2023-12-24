@@ -9,7 +9,7 @@ const PageBackground = ({ smallHead, title, content, newLine }) => {
 
     return (
         <section className='border -mt-20'>
-            <div className="h-[464px] bg-center flex justify-center items-center  border" style={{ backgroundImage: `url(${bgImage})` }}>
+            <div className="h-[360px] bg-center flex justify-center items-center  border" style={{ backgroundImage: `url(${bgImage})` }}>
                 <div className='text-center'>
                     {/* dont not tink this is right or wrong */}
                     {aktaDagerJonno ? <h1 className='flex justify-center'> <CommonSectionTitle sectionTitle={`${smallHead}`}></CommonSectionTitle></h1> : <p className='font-bold'> {smallHead}</p>}

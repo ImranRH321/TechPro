@@ -4,9 +4,12 @@ import { FaArrowAltCircleDown, FaArrowRight, FaCode, FaCodiepie, FaDolly, FaFile
 
 const TechnicalServices = () => {
     return (
-        <div className='bg-slate-100  p-5 my-16'>
+        <div className='bg-white   p-5 my-16'>
             {/* <CommonSectionTitle sectionTitle={"What we provide"}></CommonSectionTitle> */}
-            <h4 className='text-left text-1xl font-semibold my-2'>---   What we provide</h4>
+                 <div className="flex gap-x-3">
+                 <div className="divider w-[20px] h-[2px] bg-[#377DFF] mx-2" ></div>
+            <h4 className='text-left text-1xl font-semibold my-2'>   What we provide</h4>        FF
+                 </div>
             <div className="flex items-center justify-between">
                 <h2 className=' sm:text-2xl lg:text-4xl font-bold'>We provide the best <br /> technical servicesk</h2>
 
@@ -27,7 +30,7 @@ const TechnicalServices = () => {
                 </div>
                 <div className="card bg-base-100 shadow-xl">
                     <div className=" text-left">
-                    <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
+                        <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
                             <FaPhone></FaPhone>
                         </span>
                         <h2 className='text-lg font-semibold mb-4'>Industry & Automation</h2>
@@ -38,7 +41,7 @@ const TechnicalServices = () => {
                 </div>
                 <div className="card bg-base-100 shadow-xl">
                     <div className=" text-left">
-                    <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
+                        <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
                             <FaCodiepie></FaCodiepie>
                         </span>
                         <h2 className='text-lg font-semibold mb-4'>Building Installations</h2>

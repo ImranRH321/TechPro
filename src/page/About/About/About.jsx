@@ -1,18 +1,13 @@
 import React from 'react';
-import CoverBackground from '../../share/CoverBackground/CoverBackground';
-import { FaMusic } from 'react-icons/fa';
 import man1 from '../../../assets/about/man1.png'
 import man2 from '../../../assets/about/man2.png'
 import CommonSectionTitle from '../../share/CommonSectionTitle/CommonSectionTitle';
 import OurMeet from '../OurMeet/OurMeet';
-import topImg from '../../../assets/about/side.png'
-import downImg from '../../../assets/about/side2.png'
-import bgImage from '../../../assets/img/bgDark.png'
 import PageBackground from '../../share/PageBackground/PageBackground';
 
 const About = () => {
     return (
-        <div className='my-5'>
+        <div className='-pt-10'>
             <PageBackground smallHead={'About our company'} title={'Your Trusted TechPro Partner'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
             {/* end of No result  */}
             <div className="container_flow part1">

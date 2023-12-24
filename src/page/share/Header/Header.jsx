@@ -1,16 +1,17 @@
 import React from 'react';
 import  { Link } from 'react-router-dom';
 import { FaAmericanSignLanguageInterpreting } from 'react-icons/fa';
-
+import logoImg from '../../../assets/img/logo.png'
 const Header = () => {
     const navlinks = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About us</Link></li>
-        <li><Link to='/services'>Services</Link></li>
-        <li><Link to='/servicesDetails'>Service || Details</Link></li>
+        <li><Link to='/services'>Service</Link></li>
+        <li><Link to='/servicesDetails'>Project</Link></li>
         <li><Link to='/blogs'>blog</Link></li>
         <li><Link to='/blogDetail'>blogDetails</Link></li>
     </>
+    
     return (
         <div>
             <div className="navbar bg-base-100">
@@ -23,7 +24,8 @@ const Header = () => {
                         {navlinks}
                         </ul>
                     </div>
-                    <span className="ghost sm:text-4xl font-axtrabold flex items-center"> <FaAmericanSignLanguageInterpreting className='text-primary'></FaAmericanSignLanguageInterpreting> <b>TechPro</b> </span>
+                     <img className='w-[60px]' src={logoImg} alt="nimg" />
+                       <span className="ghost sm:text-3xl  font-axtrabold flex items-center"> <b>TechPro</b> </span>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

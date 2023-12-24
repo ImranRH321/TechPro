@@ -5,10 +5,10 @@ import Footer from '../share/Footer/Footer';
 
 const Main = () => {
     return (
-        <div>
+        <div className=''>
             <Header></Header>
             <Outlet></Outlet>
-             <Footer></Footer>
+            <Footer></Footer>
         </div>
     );
 };

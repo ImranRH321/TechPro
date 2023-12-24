@@ -2,6 +2,7 @@ import React from 'react';
 import { FaBeer, FaClock, FaFacebook, FaLinkedin, FaLocationArrow, FaPhone, FaSearch, FaStrikethrough, FaTwitter, FaYoutube } from "react-icons/fa";
 import fbSmLogo from '../../../assets/icons/VectorFb.png'
 import victor from '../../../assets/footer/Vector.png'
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div>
@@ -24,11 +25,13 @@ const Footer = () => {
                 </aside>
                 <nav>
                     <header className="footer-title">Quick Link</header>
-                    <a className="link link-hover">Home</a>
-                    <a className="link link-hover">About Us</a>
-                    <a className="link link-hover">Services</a>
-                    <a className="link link-hover">Blog</a>
-                    <a className="link link-hover">Projects</a>
+                    <Link to="/" className="link link-hover">Home</Link>
+                    <Link to="/about" className="link link-hover">About Us</Link>
+                    <Link to="/services" className="link link-hover">Services</Link>
+                    <Link to="/servicesDetails" className="link link-hover">ServicesDet</Link>
+                    <Link to="/blogs" className="link link-hover">Blogs</Link>
+                    <Link to="/blogDetail" className="link link-hover">BlogsDetail</Link>
+                    <Link to="/project" className="link link-hover">Projects</Link>
                 </nav>
                 <nav>
                     <header className="footer-title">Utility pages</header>

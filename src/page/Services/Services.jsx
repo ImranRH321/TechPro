@@ -3,6 +3,7 @@ import { FaArrowRight, FaPhone, FaCode, FaFacebook, FaConnectdevelop, FaUserCloc
 import CompanryService from '../share/CompanryService/CompanryService';
 import Testmonialsk from '../Home/Testmonialsk/Testmonialsk';
 import PageBackground from '../share/PageBackground/PageBackground';
+import CommonSectionTitle from '../share/CommonSectionTitle/CommonSectionTitle';
 
 const Services = () => {
     return (
@@ -12,7 +13,8 @@ const Services = () => {
            
            {/* backgroundImage  */}
             {/* banner page  */}
-            <section className="sevices_container">
+            <section className="sevices_container my-20">
+            <CommonSectionTitle sectionTitle={'What we provide'}></CommonSectionTitle>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3  text-left">
                 <h2 className='text-4xl font-bold px-3 mx-3'>We provide the best <br /> technical servicesk</h2>
                 <p className='px-3 mx-3'>Nor is there anyone who loves or pursues or desires itself because is pain, but occasionally. home cleaning service options and continue by example.</p>

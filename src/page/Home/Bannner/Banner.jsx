@@ -4,7 +4,7 @@ import CommonSectionTitle from '../../share/CommonSectionTitle/CommonSectionTitl
 
 const Banner = () => {
     return (
-        <div>
+        <div className='my-10'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 ">
                 <div className="text-left p-3">
                     <CommonSectionTitle sectionTitle={"Welcome to TechPro"}></CommonSectionTitle>
