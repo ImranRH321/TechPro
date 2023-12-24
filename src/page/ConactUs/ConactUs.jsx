@@ -33,15 +33,15 @@ const ConactUs = () => {
 
             </div>
             {/* she to buje na  Amar ki kora*/}
-            <div className="form_container_helo bg-black my-20">
+            <div className="form_container_helo bg-slate-100 py-10 px-5 my-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 ">
-                    <div className="card bg-base-200 shadow-xl">
+                    <div className="card bg-base-200 ">
                         <div className=" text-left">
                             <h2 className='font-extrabold text-3xl'>Love to hear from you, leave a message</h2>
                             <img className='my-3' src={contactImg} alt="noFound" />
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-base-100 ">
                         <div className="Container_from_Answer">
                             <form>
                                 <div className="Left_right flex gap-4  lg:flex-nowrap">

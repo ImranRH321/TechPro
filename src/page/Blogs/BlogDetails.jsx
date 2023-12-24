@@ -6,7 +6,7 @@ const BlogDetails = () => {
     return (
         <div>
             <div>
-                <h1 className='md:text-3xl font-extrabold font-serif my-4 py-3'>The shocking revelation  <br />
+                <h1 className='text-2xl md:text-4xl font-extrabold  my-4 py-3'>The shocking revelation  <br />
                     of our insurance.</h1>
              
                 <div>
