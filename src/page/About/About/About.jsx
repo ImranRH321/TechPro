@@ -12,7 +12,7 @@ import PageBackground from '../../share/PageBackground/PageBackground';
 
 const About = () => {
     return (
-        <div>
+        <div className='my-5'>
             <PageBackground smallHead={'About our company'} title={'Your Trusted TechPro Partner'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
             {/* end of No result  */}
             <div className="container_flow part1">

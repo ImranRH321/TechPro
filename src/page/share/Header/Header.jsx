@@ -13,7 +13,7 @@ const Header = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-100 border">
+            <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Header = () => {
                         {navlinks}
                         </ul>
                     </div>
-                    <span className="ghost text-4xl font-axtrabold flex items-center"> <FaAmericanSignLanguageInterpreting className='text-primary'></FaAmericanSignLanguageInterpreting> <b>TechPro</b> </span>
+                    <span className="ghost sm:text-4xl font-axtrabold flex items-center"> <FaAmericanSignLanguageInterpreting className='text-primary'></FaAmericanSignLanguageInterpreting> <b>TechPro</b> </span>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

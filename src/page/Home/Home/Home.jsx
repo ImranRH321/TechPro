@@ -5,17 +5,22 @@ import AboutUsHome from '../AboutUsHome';
 import TechnicalServices from '../TechnicalServices.jsx/TechnicalServices';
 import CompanryService from '../../share/CompanryService/CompanryService';
 import Banner from '../Bannner/Banner';
+import { FaHome } from 'react-icons/fa';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-            <Banner></Banner>
-            {/* <CompanryService></CompanryService> */}
-            {/* <TechnicalServices></TechnicalServices> */}
-            {/* <AboutUsHome></AboutUsHome> */}
-            {/* <OurBlogs></OurBlogs> */}
-            {/* <Testmonialsk></Testmonialsk> */}
+        <div className=''>
+            <div className='bg-green-500  p-5 rounded-full absolute   bottom-10 right-20'>
+                <span className='text-5xl'><FaHome></FaHome></span>
+            </div>
+            
+            {/* Bap bap polain ni adi */}
+            <Banner></Banner> <br /> <br /> <br />
+            <CompanryService></CompanryService>
+            <TechnicalServices></TechnicalServices>
+            <AboutUsHome></AboutUsHome>
+            <OurBlogs></OurBlogs>
+            <Testmonialsk></Testmonialsk>
         </div>
     );
 };

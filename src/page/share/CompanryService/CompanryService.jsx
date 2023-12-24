@@ -8,8 +8,10 @@ import comLogo7 from '../../../assets/company/7.png'
 
 const CompanryService = ({ classC, color }) => {
     return (
-        <div>
-            <p className={`text-left font-bold ${classC} `}> <span className={`${color}`}>Over 32K+</span> technical service growing with TechPro</p>
+        <div className='py-5 my-10'>
+          <div className="flex items-center">
+          <p className={`text-left font-bold ${classC} `}> <span className={`${color}`}>Over 32K+</span> technical service growing with TechPro </p><hr className='w-2/4'/>
+          </div>
             <div className='flex gap-8 my-10 items-center justify-between flex-wrap'>
                 <img src={comLogo1} alt="noImg" />
                 <img src={comLogo3} alt="noImg" />
