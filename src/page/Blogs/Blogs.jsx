@@ -4,6 +4,7 @@ import bgb from '../../assets/blogs/bgb.png';
 import b1 from '../../assets/blogs/b1.png';
 import b2 from '../../assets/blogs/b2.png';
 import b3 from '../../assets/blogs/b3.png';
+import CommonSectionTitle from '../share/CommonSectionTitle/CommonSectionTitle';
 
 const Blogs = () => {
     return (
@@ -58,9 +59,68 @@ const Blogs = () => {
                       </div>
                     </div>
 
-                </div> 
+                </div>  
            </section>        
-        </div>
+          {/* section 2  */}
+          <section className=''>
+              <div className='flex flex-col items-center my-16'>
+              <CommonSectionTitle sectionTitle={"Latest Blogs"}></CommonSectionTitle>
+              <h2 className='text-2xl font-extrabold'>Lets discover our latest <br /> finished project</h2>
+              </div>
+              {/* danson  */}
+              <div className="Booom grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="CallME  bg-base-100 shadow-xl">
+                    <figure><img className="w-[300px] h-[200px]  rounded" src={b3} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <div className='flex  border'>
+                            <p className="flex items-center gap-2">
+                                <FaUser></FaUser><span> By Johnson</span>
+                            </p>
+                            <p className="flex  items-center gap-2">
+                                <FaTasks></FaTasks><span>   23 Sep, 2023</span>
+                            </p>
+                        </div>
+                        <h2 className="card-title">The Significance of User-Centered Design !</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas. Proin auctor egestas habitasse a sem vel dapibus nulla.?</p>
+
+                    </div>
+                </div>
+            <div className="CallME  bg-base-100 shadow-xl">
+                    <figure><img className="w-[300px] h-[200px] rounded" src={b1} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <div className='flex  border'>
+                            <p className="flex items-center gap-2">
+                                <FaUser></FaUser><span> By Johnson</span>
+                            </p>
+                            <p className="flex  items-center gap-2">
+                                <FaTasks></FaTasks><span>   23 Sep, 2023</span>
+                            </p>
+                        </div>
+                        <h2 className="card-title">The Significance of User-Centered Design !</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas. Proin auctor egestas habitasse a sem vel dapibus nulla.?</p>
+
+                    </div>
+                </div>
+            <div className="CallME  bg-base-100 shadow-xl">
+                    <figure><img className="w-[300px] h-[200px]  rounded" src={b2} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <div className='flex  border'>
+                            <p className="flex items-center gap-2">
+                                <FaUser></FaUser><span> By Johnson</span>
+                            </p>
+                            <p className="flex  items-center gap-2">
+                                <FaTasks></FaTasks><span>   23 Sep, 2023</span>
+                            </p>
+                        </div>
+                        <h2 className="card-title">The Significance of User-Centered Design !</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Vitae eget feugiat nulla egestas. Proin auctor egestas habitasse a sem vel dapibus nulla.?</p>
+
+                    </div>
+                </div>
+            </div>
+            {/* danso end */}
+          </section>
+         </div>
     );
 };
 
