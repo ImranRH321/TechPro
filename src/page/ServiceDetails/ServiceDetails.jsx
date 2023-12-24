@@ -2,10 +2,13 @@ import React from 'react';
 import per1 from '../../assets/services/per1.png'
 import per2 from '../../assets/services/per2.png'
 import bgSerPic from '../../assets/services/bgSer.png'
+import PageBackground from '../share/PageBackground/PageBackground';
 
 const ServiceDetails = () => {
     return (
         <div>
+            <PageBackground smallHead={'Contact Us'} title={'Service Details Page'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
+           
             <div className="sigleServices">
                 <div className='text-left'>
                     <h1>services</h1>
@@ -46,8 +49,8 @@ const ServiceDetails = () => {
             <div className="sectionBacground">
                 <div className="h-[464px] bg-center flex justify-center bg-contain bg-no-repeat items-center " style={{ backgroundImage: `url(${bgSerPic})` }}>
                     <div className='text-center'>
-                        <h1 className='text-4xl font-extrabold pt-2'>Are you interested in <br /> working with us?</h1> 
-                        
+                        <h1 className='text-4xl font-extrabold pt-2'>Are you interested in <br /> working with us?</h1>
+
                         <div className="flex justify-center mt-6 ">
                             <button className="btn text-white hover:bg-[#F84C03] bg-[#F84C03]">Send message</button>
                         </div>

@@ -1,11 +1,14 @@
 import React from 'react';
 import { FaFileMedicalAlt, FaPhone, FaTimes, FaUber, FaUserTimes } from 'react-icons/fa';
 import contactImg from '../../assets/services/contact.png'
+import PageBackground from '../share/PageBackground/PageBackground';
 
 const ConactUs = () => {
     return (
         <div>
-            <h1>conantact use </h1>
+             <PageBackground smallHead={'Contact Us'} title={'Our Help Center'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
+         
+             {/* --------------------------- cholo valobasi---------------------- */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
                 <div className="card bg-base-100 shadow-xl">
                     <div className=" text-left">

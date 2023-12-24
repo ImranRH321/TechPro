@@ -2,13 +2,21 @@ import React from 'react';
 import { FaArrowRight, FaPhone, FaCode, FaFacebook, FaConnectdevelop, FaUserClock, FaClosedCaptioning, FaTape, FaConfluence, FaSearchDollar, FaImage } from 'react-icons/fa';
 import CompanryService from '../share/CompanryService/CompanryService';
 import Testmonialsk from '../Home/Testmonialsk/Testmonialsk';
+import PageBackground from '../share/PageBackground/PageBackground';
 
 const Services = () => {
     return (
         <div>
-            <h1>service page via</h1>
+           {/* backgroundImage  */}
+           <PageBackground smallHead={'Highest Level Of Service'} title={'Our Services'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
+           
+           {/* backgroundImage  */}
             {/* banner page  */}
             <section className="sevices_container">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3  text-left">
+                <h2 className='text-4xl font-bold px-3 mx-3'>We provide the best <br /> technical servicesk</h2>
+                <p className='px-3 mx-3'>Nor is there anyone who loves or pursues or desires itself because is pain, but occasionally. home cleaning service options and continue by example.</p>
+            </div>
                 {/* Ar koto valobasba akto komiya deo  */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
                     <div className="card bg-base-100 shadow-xl">
@@ -79,7 +87,7 @@ const Services = () => {
 
                 </div>
             </section>
-            <div className='my-10'>
+            <div className='my-10 py-7 bg-slate-50'>
                 <CompanryService classC={'flex justify-center'} color="font-extrabold"></CompanryService>
             </div>
             <Testmonialsk></Testmonialsk>

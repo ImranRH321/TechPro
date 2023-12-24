@@ -5,12 +5,16 @@ import man1 from '../../../assets/about/man1.png'
 import man2 from '../../../assets/about/man2.png'
 import CommonSectionTitle from '../../share/CommonSectionTitle/CommonSectionTitle';
 import OurMeet from '../OurMeet/OurMeet';
+import topImg from '../../../assets/about/side.png'
+import downImg from '../../../assets/about/side2.png'
+import bgImage from '../../../assets/img/bgDark.png'
+import PageBackground from '../../share/PageBackground/PageBackground';
 
 const About = () => {
     return (
         <div>
-            <h1 className='text-black'>Iabout page </h1>
-            {/* <CoverBackground></CoverBackground> */}
+            <PageBackground smallHead={'About our company'} title={'Your Trusted TechPro Partner'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
+            {/* end of No result  */}
             <div className="container_flow part1">
                 <CommonSectionTitle sectionTitle={"Our Misssion"}></CommonSectionTitle>
                 <h1 className='text-3xl font-extrabold text-left my-3'>Your happiness is our <br /> first priority</h1>
