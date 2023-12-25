@@ -21,17 +21,17 @@ const Services = () => {
             </div>
                 {/* Ar koto valobasba akto komiya deo  */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card  shadow-xl">
                         <div className=" text-left">
                             {/* icon1  */}
-                            <button className='bg-slate-100 p-3 rounded-full text-orange-500'><FaConnectdevelop></FaConnectdevelop></button>
+                            <button className=' bg-slate-100 p-3 rounded-full  text-orange-500 '><FaConnectdevelop></FaConnectdevelop></button>
                             <h2 className='font-extrabold my-4'>Energy & Renewables</h2>
                             <p>Real time problems solving is not just about time, it’s about time. This allows you to solve within a specified time problem. </p>
 
                             <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer'>Learn More <FaArrowRight></FaArrowRight></h3>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card  shadow-xl">
                         <div className=" text-left">
                             {/* icon 2 */}
                             <button className='bg-slate-100 p-3 rounded-full text-orange-500'><FaPhone></FaPhone></button>
@@ -42,7 +42,7 @@ const Services = () => {
                             <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer text-orange-500'>Learn More <FaArrowRight></FaArrowRight></h3>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card  shadow-xl">
                         <div className=" text-left">
                             {/* icon 3 */}
                             <button className='bg-slate-100 p-3 rounded-full text-orange-500'><FaCode></FaCode></button>
@@ -53,7 +53,7 @@ const Services = () => {
                             <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer'>Learn More <FaArrowRight></FaArrowRight></h3>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card  shadow-xl">
                         <div className=" text-left">
                             {/* icon 4 */}
                             <button className='bg-slate-100 p-3 rounded-full text-orange-500'><FaUserClock></FaUserClock></button>
@@ -64,7 +64,7 @@ const Services = () => {
                             <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer'>Learn More <FaArrowRight></FaArrowRight></h3>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card  shadow-xl">
                         <div className=" text-left">
                             {/* icon 5 */}
                             <button className='bg-slate-100 p-3 rounded-full text-orange-500'><FaImage></FaImage></button>
@@ -75,7 +75,7 @@ const Services = () => {
                             <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer'>Learn More <FaArrowRight></FaArrowRight></h3>
                         </div>
                     </div>
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card  shadow-xl">
                         <div className=" text-left">
                             {/* icon 6 */}
                             <button className='bg-slate-100 p-3 rounded-full text-orange-500'><FaTape></FaTape></button>
@@ -89,7 +89,7 @@ const Services = () => {
 
                 </div>
             </section>
-            <div className='my-10 py-7 bg-slate-50'>
+            <div className='my-10 py-7 mx-10'>
                 <CompanryService classC={'flex justify-center'} color="font-extrabold"></CompanryService>
             </div>
             <Testmonialsk></Testmonialsk>

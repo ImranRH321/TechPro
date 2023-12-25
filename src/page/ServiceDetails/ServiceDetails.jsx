@@ -6,12 +6,11 @@ import PageBackground from '../share/PageBackground/PageBackground';
 
 const ServiceDetails = () => {
     return (
-        <div>
+        <div className='px-4'>
             <PageBackground smallHead={'Contact Us'} title={'Service Details Page'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
            
             <div className="sigleServices">
                 <div className='text-left'>
-                    <h1>services</h1>
                     <h1 className='text-2xl font-extrabold mx-12 my-6 '>IT Support Services</h1>
                     <div>
                         <img src={per1} className='w-full h-[460px] rounded' alt="" />
@@ -49,7 +48,7 @@ const ServiceDetails = () => {
             <div className="sectionBacground">
                 <div className="h-[464px] bg-center flex justify-center bg-contain bg-no-repeat items-center " style={{ backgroundImage: `url(${bgSerPic})` }}>
                     <div className='text-center'>
-                        <h1 className='text-4xl font-extrabold pt-2'>Are you interested in <br /> working with us?</h1>
+                        <h1 className='text-4xl text-black font-extrabold pt-2'>Are you interested in <br /> working with us?</h1>
 
                         <div className="flex justify-center mt-6 ">
                             <button className="btn text-white hover:bg-[#F84C03] bg-[#F84C03]">Send message</button>

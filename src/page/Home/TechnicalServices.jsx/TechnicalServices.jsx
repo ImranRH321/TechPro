@@ -4,7 +4,7 @@ import { FaArrowAltCircleDown, FaArrowRight, FaCode, FaCodiepie, FaDolly, FaFile
 
 const TechnicalServices = () => {
     return (
-        <div className='bg-white   p-5 my-16'>
+        <div className=' p-5 my-16'>
             {/* <CommonSectionTitle sectionTitle={"What we provide"}></CommonSectionTitle> */}
                  <div className="flex gap-x-3">
                  <div className="divider w-[20px] h-[2px] bg-[#377DFF] mx-2" ></div>
@@ -17,7 +17,7 @@ const TechnicalServices = () => {
             </div>
             {/* Ar koto valobasba akto komiya deo  */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
                             <FaDolly></FaDolly>
@@ -28,7 +28,7 @@ const TechnicalServices = () => {
                         <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer'>Learn More <FaArrowRight></FaArrowRight></h3>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
                             <FaPhone></FaPhone>
@@ -39,7 +39,7 @@ const TechnicalServices = () => {
                         <h3 className='font-extrabold mt-3 flex items-center gap-2 cursor-pointer text-orange-500'>Learn More <FaArrowRight></FaArrowRight></h3>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card shadow-xl">
                     <div className=" text-left">
                         <span className='inline-block bg-slate-100 p-3 rounded-full text-red-400'>
                             <FaCodiepie></FaCodiepie>

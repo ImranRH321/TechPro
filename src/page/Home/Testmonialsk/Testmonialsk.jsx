@@ -13,7 +13,7 @@ const Testmonialsk = () => {
                     around the world</h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <h2 className="card-title text-2xl text-warning mb-5">
                             <FaStar></FaStar>
@@ -35,7 +35,7 @@ const Testmonialsk = () => {
                        </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <h2 className="card-title text-2xl text-warning mb-5">
                             <FaStar></FaStar>
@@ -58,7 +58,7 @@ const Testmonialsk = () => {
                        </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <h2 className="card-title text-2xl text-warning mb-5">
                             <FaStar></FaStar>

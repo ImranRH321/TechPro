@@ -9,7 +9,7 @@ import PageBackground from '../share/PageBackground/PageBackground';
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='px-4'>
             <PageBackground smallHead={'All Blogs'} title={'Follow Our Blog for Updates'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
             <section className="Area">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -32,7 +32,7 @@ const Blogs = () => {
                     </div>
                     {/* right side  */}
                     <div className="card shadow-xl sonamiya">
-                        <div className="bg-white shadow-xl px-2 py-4 rounded flex items-center text-left gap-5">
+                        <div className=" shadow-xl px-2 py-4 rounded flex items-center text-left gap-5">
                             <img className=' h-[120px]' src={b1} alt="noImg" />
                             <div>
                                 <h2 className="font-extrabold">
@@ -41,7 +41,7 @@ const Blogs = () => {
                                 <p className='mt-2'>    By Johnson | 23 Sep, 2023 </p>
                             </div>
                         </div>
-                        <div className="bg-white my-5 shadow-xl px-3 py-4 rounded flex items-center text-left gap-5">
+                        <div className=" my-5 shadow-xl px-3 py-4 rounded flex items-center text-left gap-5">
                             <img className=' h-[120px]' src={b1} alt="noImg" />
                             <div>
                                 <h2 className="font-extrabold">
@@ -50,7 +50,7 @@ const Blogs = () => {
                                 <p className='mt-2'>    By Johnson | 23 Sep, 2023 </p>
                             </div>
                         </div>
-                        <div className="bg-white shadow-xl px-3 py-4 rounded flex items-center text-left gap-5">
+                        <div className=" shadow-xl px-3 py-4 rounded flex items-center text-left gap-5">
                             <img className=' h-[120px]' src={b1} alt="noImg" />
                             <div>
                                 <h2 className="font-extrabold">
@@ -71,9 +71,9 @@ const Blogs = () => {
                 </div>
                 {/* danson  */}
                 <div className="Booom grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <div className="CallME  bg-base-100 shadow-xl text-left">
-                        <div className='p-5'>
-                            <figure><img className="w-[300px]  mx-auto lg:w-full h-[200px] rounded" src={b3} alt="Shoes" /></figure>
+                    <div className="CallME   shadow-xl text-left">
+                        <div className=''>
+                            <figure><img className="w-[300px] h-[200px] p-3 rounded" src={b3} alt="Shoes" /></figure>
                         </div>
                         <div className="p-5">
                             <div className='flex justify-between'>
@@ -89,8 +89,8 @@ const Blogs = () => {
 
                         </div>
                     </div>
-                    <div className="CallME  bg-base-100 shadow-xl">
-                        <figure><img className="w-[300px]  mx-auto lg:w-full p-5 h-[200px]  rounded" src={b1} alt="Shoes" /></figure>
+                    <div className="CallME  shadow-xl">
+                        <figure><img className="w-[300px] h-[200px] p-3 rounded" src={b1} alt="Shoes" /></figure>
                         <div className="p-5 text-left">
                             <div className='flex justify-between'>
                                 <p className="flex items-center gap-2">
@@ -105,7 +105,7 @@ const Blogs = () => {
 
                         </div>
                     </div>
-                    <div className="CallME  bg-base-100 shadow-xl">
+                    <div className="CallME  shadow-xl">
                         <figure><img className="w-[300px] h-[200px] p-3 rounded" src={b2} alt="Shoes" /></figure>
                         <div className="p-4 text-left">
                             <div className='flex justify-between'>

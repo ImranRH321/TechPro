@@ -10,7 +10,7 @@ const About = () => {
         <div className='-pt-10'>
             <PageBackground smallHead={'About our company'} title={'Your Trusted TechPro Partner'} content={`Our team of experts who have been in the profession for years focuses on helping`} newLine={' you achieve optimal technical surface.'}></PageBackground>
             {/* end of No result  */}
-            <div className="container_flow part1">
+            <div className="container_flow part1 px-4">
                 <CommonSectionTitle sectionTitle={"Our Misssion"}></CommonSectionTitle>
                 <h1 className='text-3xl font-extrabold text-left my-3'>Your happiness is our <br /> first priority</h1>
                 {/* row bro */}
@@ -51,7 +51,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='Right_img border flex  gap-5 flex-wrap'>
+                    <div className='Right_img  flex  gap-5 flex-wrap'>
                         <img className='w-[200px] rounded' src={man1} alt="noImg" />
                         <img className='w-[200px] rounded' src={man2} alt="noImg" />
                     </div>
@@ -61,7 +61,7 @@ const About = () => {
                 <OurMeet></OurMeet>
             </div>
             {/* Start bro */}
-            <div className="my-5 bosStart">
+            <div className="my-5 bosStart ">
                 <h1 className='text-center font-extrabold text-3xl'>How we’ve helped our clients</h1>
                 <div className="heloStart flex gap-10 justify-center flex-wrap mt-5">
                     <div className="stats shadow">

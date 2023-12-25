@@ -15,8 +15,8 @@ const AboutUsHome = () => {
                     <CommonSectionTitle sectionTitle={"About us"}></CommonSectionTitle>
                     <h2 className='text-4xl font-bold my-4'>World leading technical company since 1997</h2>
                     <p>Nor is there anyone who loves or pursues or desires itself because is pain, but occasionally. home cleaning service options and cont inue by example, leaving other cleaning companies.</p>
-                    <div className="flex items-center gap-4 my-4 bg-blue-50 py-2">
-                        <span className='text-3xl p-3 text-blue-600 bg-blue-200 rounded-full'> <FaAssistiveListeningSystems></FaAssistiveListeningSystems></span>
+                    <div className="flex items-center gap-4 my-4 py-2">
+                        <span className='text-3xl p-3 text-blue-600  rounded-full'> <FaAssistiveListeningSystems></FaAssistiveListeningSystems></span>
                         <div>
                             <h2 className='font-bold'>Company details gather</h2>
                             <h2>Mollis facilisis nibh libero in nisl. Pulvinar donec lorem arcu augue feugiat enim.</h2>
@@ -36,14 +36,14 @@ const AboutUsHome = () => {
                         <h2 className='md:text-2xl lg:text-4xl font-bold my-4'>Experience backed by our expertise at your service</h2>
                         <p>Nor is there anyone who loves or pursues or desires itself because is pain, but occasionally. home cleaning service options and continue by example..</p>
                     </div>
-                    <div className="1maical flex items-center gap-4 my-4 bg-blue-50 py-2">
+                    <div className="1maical flex items-center gap-4 my-4  py-2">
                         <span className='text-3xl p-3 text-blue-600 bg-blue-200 rounded-full'> <FaShopify></FaShopify></span>
                         <div>
                             <h2 className='font-bold'>Highly Rated & Esteemed </h2>
                             <h2>Mollis facilisis nibh libero in nisl. Pulvinar donec lorem arcu augue feugiat enim.</h2>
                         </div>
                     </div>
-                    <div className="1maical flex items-center gap-4 my-4 bg-blue-50  py-2">
+                    <div className="1maical flex items-center gap-4 my-4   py-2">
                         <span className='text-3xl p-3 text-blue-600 bg-blue-200 rounded-full'> <FaNetworkWired></FaNetworkWired></span>
                         <div>
                             <h2 className='font-bold'>

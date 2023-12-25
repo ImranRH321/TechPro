@@ -7,33 +7,33 @@ import p4 from '../../../assets/ourMeet/p4.png'
 
 const OurMeet = () => {
     return (
-        <div>
+        <div className='mx-4'>
             <div className='flex justify-center mt-10'> <CommonSectionTitle sectionTitle={'Our Team'}></CommonSectionTitle></div>
             <h1 className='text-3xl font-extrabold'>Meet our creative team</h1>
             <br />
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-lef mt-5">
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-black shadow-xl">
                     <div className=" text-left">
                         <img src={p1} alt="noImg" />
                         <p className='font-extrabold text-center mt-3'>Faye Carson</p>
                         <p className=' text-center'>Instuctor</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-black shadow-xl">
                     <div className=" text-left">
                         <img src={p2} alt="noImg" />
                         <p className='font-extrabold text-center mt-3'>Faye Carson</p>
                         <p className=' text-center'>Instuctor</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-black shadow-xl">
                     <div className=" text-left">
                         <img src={p3} alt="noImg" />
                         <p className='font-extrabold text-center mt-3'>Faye Carson</p>
                         <p className=' text-center'>Instuctor</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-black shadow-xl">
                     <div className=" text-left">
                         <img src={p4} alt="noImg" />
                         <p className='font-extrabold text-center mt-3'>Faye Carson</p>

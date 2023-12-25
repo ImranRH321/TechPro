@@ -13,9 +13,10 @@ const OurBlogs = () => {
                 <h2 className='text-2xl md:text-3xl font-bold px-3 mx-3'>We provide the best <br /> technical servicesk</h2>
                 <p className='px-3 mx-3'>Nor is there anyone who loves or pursues or desires itself because is pain, but occasionally. home cleaning service options and continue by example.</p>
             </div>
+            <br />
         {/* danson  */}
         <div className="Booom grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="CallME  bg-base-100 shadow-xl text-left">
+            <div className="CallME   shadow-xl text-left">
                <div className='p-5'>
                  <figure><img className="w-[300px]  mx-auto lg:w-full h-[200px] rounded" src={b3} alt="Shoes" /></figure>
                </div>
@@ -33,7 +34,7 @@ const OurBlogs = () => {
 
                 </div>
             </div>
-            <div className="CallME  bg-base-100 shadow-xl">
+            <div className="CallME   shadow-xl">
                 <figure><img className="w-[300px]  mx-auto lg:w-full p-5 h-[200px]  rounded" src={b1} alt="Shoes" /></figure>
                 <div className="p-5 text-left">
                     <div className='flex justify-between'>
@@ -49,7 +50,7 @@ const OurBlogs = () => {
 
                 </div>
             </div>
-            <div className="CallME  bg-base-100 shadow-xl">
+            <div className="CallME   shadow-xl">
                 <figure><img className="w-[300px] h-[200px] p-3 rounded" src={b2} alt="Shoes" /></figure>
                     <div className="p-4 text-left">
                     <div className='flex justify-between'>

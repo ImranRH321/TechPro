@@ -9,15 +9,12 @@ import { FaHome } from 'react-icons/fa';
 
 const Home = () => {
     return (
-        <div>
-            {/* <div className='bg-green-500  p-5 rounded-full absolute   bottom-10 right-20'>
-                <span className='text-5xl'><FaHome></FaHome></span>
-            </div>
-             */}
+        <div className='bg-black px-4 mx-4'>
             <Banner></Banner> <br /> <br /> <br />
-            <CompanryService></CompanryService>
+              <div className="px-4">  <CompanryService></CompanryService></div>
             <TechnicalServices></TechnicalServices>
             <AboutUsHome></AboutUsHome>
+            <br />
             <OurBlogs></OurBlogs>
             <Testmonialsk></Testmonialsk>
         </div>

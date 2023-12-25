@@ -8,9 +8,10 @@ const PageBackground = ({ smallHead, title, content, newLine }) => {
     const aktaDagerJonno = location.pathname === "/about";
 
     return (
-        <section className='border -mt-20'>
+      <div className="bg-black">
+          <section className=' -mt-0'>
             <div className="h-[360px] bg-center flex justify-center items-center  border" style={{ backgroundImage: `url(${bgImage})` }}>
-                <div className='text-center'>
+                <div className='text-center text-black'>
                     {/* dont not tink this is right or wrong */}
                     {aktaDagerJonno ? <h1 className='flex justify-center'> <CommonSectionTitle sectionTitle={`${smallHead}`}></CommonSectionTitle></h1> : <p className='font-bold'> {smallHead}</p>}
                     {/* end  */}
@@ -21,6 +22,7 @@ const PageBackground = ({ smallHead, title, content, newLine }) => {
                 </div>
             </div>
         </section>
+      </div>
     );
 };
 

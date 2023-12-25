@@ -12,7 +12,7 @@ const Banner = () => {
                     <p className='my-3 py-2'>Posuere tortor magna hendrerit elit dolor sed cursus sed mus. Mauris quis sed aliquet vestibulum massa.</p>
                     <div className='flex gap-5'>
 
-                        <button className="btn bg-[#F84C03]  hover:bg-[#F84C03] px-6 rounded text-white">Get Stated</button>
+                        <button className="btn bg-[#F84C03] border-none hover:bg-[#F84C03] px-6 rounded text-white">Get Stated</button>
                         <button className="btn hover:bg-black border  hover:text-white  px-6 rounded ">Learn More</button>
                     </div>
                     <div className="heloStart flex gap-2  mt-5">

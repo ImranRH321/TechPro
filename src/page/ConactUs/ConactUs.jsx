@@ -10,7 +10,7 @@ const ConactUs = () => {
          
              {/* --------------------------- cholo valobasi---------------------- */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-lef mt-8">
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <button className='bg-slate-100 p-3 rounded-full text-[#377DFF]'><FaPhone></FaPhone></button>
                         <h2 className='font-extrabold my-3'>Call Us Today</h2>
@@ -18,7 +18,7 @@ const ConactUs = () => {
                             <br /> +4 (248) 762-0356</small></p>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <button className='bg-slate-100 p-3 rounded-full text-[#377DFF]'><FaFileMedicalAlt></FaFileMedicalAlt></button>
                         <h2 className='font-extrabold my-3'>Send Message Via Email</h2>
@@ -26,7 +26,7 @@ const ConactUs = () => {
                             <br /> info.techpro@gmail.com</small></p>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card  shadow-xl">
                     <div className=" text-left">
                         <button className='bg-slate-100 p-3 rounded-full text-[#377DFF]'><FaUber></FaUber></button>
                         <h2 className='font-extrabold my-3'>Visit Our Office</h2>
@@ -36,46 +36,46 @@ const ConactUs = () => {
 
             </div>
             {/* she to buje na  Amar ki kora*/}
-            <div className="form_container_helo bg-slate-100 py-10 px-5 my-20">
+            <div className="form_container_helo  py-10 px-5 my-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 ">
-                    <div className="card bg-base-200 ">
+                    <div className="card ">
                         <div className=" text-left">
-                            <h2 className='font-extrabold text-3xl'>Love to hear from you, leave a message</h2>
+                            <h2 className='font-extrabold text-3xl text-white'>Love to hear from you, leave a message</h2>
                             <img className='my-3' src={contactImg} alt="noFound" />
                         </div>
                     </div>
-                    <div className="card bg-base-100 ">
+                    <div className="card  ">
                         <div className="Container_from_Answer">
                             <form>
                                 <div className="Left_right flex gap-4  lg:flex-nowrap">
                                     <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text font-semibold">First Name★</span>
+                                            <span className="label-text text-white font-semibold">First Name★</span>
                                         </label>
-                                        <input type="email" placeholder="Enter first name" className="input input-bordered w-full" required />
+                                        <input type="email" placeholder="Enter first name" className="input input-bordered w-full text-black" required />
                                     </div>
                                     <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text font-semibold">Last Name★</span>
+                                            <span className="label-text text-white font-semibold">Last Name★</span>
                                         </label>
-                                        <input type="email" placeholder="Enter last name" className="input input-bordered w-full" required />
+                                        <input type="email" placeholder="Enter last name" className="input input-bordered w-full text-black" required />
                                     </div>
                                 </div>
                                 {/* email  */}
                                 <div className="form-control my-4">
                                     <label className="label">
-                                        <span className="label-text font-semibold">Email★</span>
+                                        <span className="label-text text-white font-semibold">Email★</span>
                                     </label>
-                                    <input type="email" placeholder="email" className="input input-bordered" required />
+                                    <input type="email" placeholder="email" className="input input-bordered text-black" required />
                                 </div>
                                 {/* Messages  */}
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text font-semibold">Message★
+                                        <span className="label-text text-white font-semibold">Message★
                                         </span>
                                     </label>
                                     {/* lg */}
-                                    <textarea placeholder="Type here ..." className="textarea-bordered textarea   h-[122px]" ></textarea>
+                                    <textarea placeholder="Type here ..." className="textarea-bordered textarea text-black   h-[122px]" ></textarea>
                                 </div>
                                 <div className="flex justify-end mt-4 ">
                                     <button className="btn text-white bg-[#F84C03]">Send message</button>
